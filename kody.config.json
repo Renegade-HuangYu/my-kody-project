@@ -1,0 +1,23 @@
+{
+  "$schema": "https://raw.githubusercontent.com/aharonyaircohen/kody-engine/main/kody.config.schema.json",
+  "quality": {
+    "typecheck": "npm tsc --noEmit",
+    "lint": "",
+    "testUnit": "npm test"
+  },
+  "git": {
+    "defaultBranch": "master"
+  },
+  "github": {
+    "owner": "Renegade-HuangYu",
+    "repo": "my-kody-project"
+  },
+  "agent": {    
+    "default": { "provider": "deepseek", "model": "deepseek-chat" },
+    "stages": {
+      "build": { "provider": "deepseek", "model": "deepseek-chat" },
+      "review-fix": { "provider": "deepseek", "model": "deepseek-chat" }
+    }
+  }
+}
+
