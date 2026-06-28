@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/aharonyaircohen/kody-engine/main/kody.config.schema.json",
+  "$schema": "https://raw.githubusercontent.com/aharonnyaircohen/kody-engine/main/kody.config.schema.json",
   "quality": {
     "typecheck": "npm tsc --noEmit",
     "lint": "",
@@ -12,11 +12,7 @@
     "owner": "Renegade-HuangYu",
     "repo": "my-kody-project"
   },
-    "agent": {
+  "agent": {
     "model": "deepseek/deepseek-chat"
   }
-    }
-  }
 }
-
-
