@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Renegade-HuangYu/my-kody-project#readme",
   "dependencies": {
     "@kody-ade/kody-engine": "^0.4.277"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
   }
 }
