@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/aharonnyaircohen/kody-engine/main/kody.config.schema.json",
   "quality": {
-    "typecheck": "npm tsc --noEmit",
+    "typecheck": "npx tsc --noEmit",
     "lint": "",
     "testUnit": "npm test"
   },
@@ -16,3 +16,4 @@
     "model": "deepseek/deepseek-chat"
   }
 }
+
