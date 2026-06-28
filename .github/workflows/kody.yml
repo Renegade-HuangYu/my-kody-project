@@ -32,6 +32,8 @@ on:
         default: ""
   issue_comment:
     types: [created]
+  push:  # 添加这行
+    branches: [master]  # 添加这行
 
 jobs:
   run:
